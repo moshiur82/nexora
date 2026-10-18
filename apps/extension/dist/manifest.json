@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "NEXORA Web3 Wallet",
+  "version": "1.0.0",
+  "description": "An AI-powered multichain financial platform built for Web3.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background/background.js"
+  }
+}

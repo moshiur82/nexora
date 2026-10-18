@@ -1,0 +1,405 @@
+Very importent: one step complete another step you will tell You should explain everything in Bangla, but write the actual code in English.
+Please note: I will test everything on my PC and browser.
+please note: all layout style will be white bg and black, gray, blue , world best ui ux color
+Please guide me step-by-step in Bangla. I want to build the entire app using VS Code, sI already create a folder in d drive named 'webapp' 
+The app will feature a world-class UI/UX. It will definitely be in English. You should explain everything in Bangla, but write the actual code in English.
+Please note: Guide me one step at a time; move to the next step only after the current one is finished.
+Please note: The frontend and backend will reside in the same root folder.
+Please note: My PC OS is Windows 10 Pro.
+Please note: If icons are used, they should be very thin line art (1 or 2 pt stroke); no background for icons, just simple icon only without any color bg.
+Please note: We will proceed very slowly, step-by-step—no rushing.
+
+We will build it using Python, Deep Learning, Django, React, and PostgreSQL, and finally deploy it to a server.
+
+
+Project Details:
+My Fintech SaaS-এর নাম: NEXORA
+
+NEXORA
+AI • WEB3 • FINANCE
+
+
+Your Assets. Your Keys. Your Future.
+An AI-powered multichain financial platform built for the next generation of Web3.
+Self-Custody
+AI Intelligence
+Multichain
+
+
+
+NEXORA হবে আপনার প্রস্তাবিত ব্র্যান্ডের নাম। এটি একটি প্রাথমিক নামের প্রস্তাব; ব্যবহার করার আগে Trademark, কোম্পানি নিবন্ধন এবং Domain Availability যাচাই করবেন।
+২. সম্পূর্ণ Website ও Application Structure
+আপনার প্ল্যাটফর্মে শুধু একটি ওয়েবসাইট থাকবে না। এটি হবে একটি সমন্বিত Product Ecosystem।
+NEXORA PLATFORM
+Unified Identity • Wallets • AI • Fintech SaaS
+
+Web Application
+Dashboard, Portfolio, Swap, Analytics
+
+
+Browser Extension
+Wallet Popup, dApp Connection, Signing
+
+
+Mobile Application
+Android, iOS, Biometrics, QR
+
+
+AI Intelligence
+Risk, Scam Detection, Insights
+
+
+
+
+Shared Application Backend
+Django REST API • Authentication • Subscription • Notifications
+
+
+EVM
+Ethereum, Base, Polygon
+
+
+Bitcoin
+Native BTC
+
+
+Solana
+SOL, SPL Tokens
+
+Tech Stack কীভাবে সাজাবেন?
+Layer	প্রস্তাবিত প্রযুক্তি
+Web Wallet UI	React, Vite, TypeScript, Tailwind
+Browser Extension	React + TypeScript + Extension APIs
+Mobile App (পরবর্তী ধাপ)	React Native
+Backend API	Python, Django, DRF
+Database	PostgreSQL
+EVM Blockchain	Wallet-compatible JavaScript libraries, RPC providers
+Bitcoin / Solana	আলাদা Chain-specific SDK ও Signing Integration
+Buy / Sell	Third-party on-ramp ও off-ramp providers
+Swap / Bridge	DEX ও Cross-chain Aggregator APIs
+Security	Hardware-backed protection, secure signing, transaction simulation
+Deployment	Docker, Nginx, Ubuntu
+একটি গুরুত্বপূর্ণ পার্থক্য: Django মূলত User Profile, Preferences, Settings, Notifications এবং ঐচ্ছিক SaaS Subscription পরিচালনা করবে। Blockchain Transaction সরাসরি Blockchain Network-এ Broadcast হবে। Self-custody Wallet-এর Private Key সাধারণত আপনার Django Server বা PostgreSQL-এ রাখা উচিত নয়।
+আপনি চাইলে পরে Premium Portfolio Analytics, AI-ভিত্তিক Scam Detection, Suspicious Token Alerts এবং Advanced Risk Analysis যোগ করতে পারবেন।
+৩. Development-এর জন্য আমার প্রস্তাব
+
+Phase 1 — Secure Wallet MVP
+Wallet Creation/Import, Receive, Send, Balance, Token List এবং Transaction History। প্রথমে একটি Testnet-এ পরীক্ষা।
+
+
+
+
+Phase 2 — Swap & dApp Connectivity
+Token Swap, Quote Comparison, Transaction Simulation এবং Web3 Connection।
+
+
+
+
+Phase 3 — Buy & Sell Integration
+অঞ্চল, Provider Eligibility ও Compliance অনুযায়ী Fiat On-Ramp/Off-Ramp যুক্ত করা।
+
+
+
+
+Phase 4 — Security & Production
+Independent Security Audit, Recovery Testing, Monitoring, Extension Store Review এবং Production Deployment।
+
+
+
+MetaMask-এর নিজস্ব Branding, Logo বা হুবহু UI কপি না করে একই ধরনের ব্যবহারযোগ্যতা নিয়ে আপনার নিজস্ব Brand তৈরি করা ভালো।
+৪. এখন আপনার কাছ থেকে একটি সিদ্ধান্ত দরকার
+
+
+এই Multichain Architecture-এ একই User Experience রাখা যাবে, কিন্তু প্রতিটি Blockchain-এর Address, Signing, Transaction Format এবং Network Logic আলাদাভাবে পরিচালনা করতে হবে। MetaMask-এর Developer Documentation-ও EVM ও Solana-র জন্য পৃথক এবং Multichain Integration পদ্ধতি দেখায়। MetaMask Developer Documentation।
+৩. সম্পূর্ণ Website Sitemap
+A. Public Website — Marketing ও Business
+PUBLIC ROUTES
+/                         → Home
+/about                    → About Nexora
+/wallet                   → Wallet Overview
+/features                 → Platform Features
+/multichain               → Supported Networks
+/ai-intelligence          → AI Features
+/security                 → Security & Architecture
+/pricing                  → Subscription Plans
+/developers               → Developer Platform
+/docs                     → Documentation
+/blog                     → News & Articles
+/careers                  → Careers
+/contact                  → Contact
+/terms                    → Terms of Service
+/privacy                  → Privacy Policy
+/risk-disclosure          → Financial Risk Disclosure
+
+B. Authentication & Wallet Onboarding
+AUTH ROUTES
+/auth/login               → Login
+/auth/register            → Create Account
+/auth/verify-email        → Email Verification
+/auth/social              → Social Login
+/auth/recovery            → Account Recovery
+/onboarding               → Welcome & Setup
+/onboarding/create-wallet → Create Self-Custody Wallet
+/onboarding/import-wallet → Import Existing Wallet
+/onboarding/embedded      → Embedded Wallet Setup
+/onboarding/backup        → Backup & Recovery Guidance
+/onboarding/networks      → Choose Supported Networks
+
+এখানে দুটি Wallet Mode থাকবে:
+- Self-Custody: ব্যবহারকারী নিজে Recovery Phrase ও Signing Key-এর দায়িত্ব রাখবেন।
+- Embedded Wallet: ব্যবহারকারী Email বা Social Login দিয়ে সহজে শুরু করতে পারবেন; Wallet Key-এর সুরক্ষা ও Recovery উপযুক্ত Non-Custodial Key Infrastructure দিয়ে পরিচালিত হবে।
+Embedded Wallet মানেই Custodial Wallet নয়। সঠিক Key Architecture অনুযায়ী ব্যবহারকারীর নিয়ন্ত্রণ বজায় রাখা সম্ভব। Embedded Wallets Architecture।
+C. Main Wallet Dashboard
+AUTHENTICATED APP ROUTES
+/app                     → Overview Dashboard
+/app/wallets             → All Wallet Accounts
+/app/assets              → All Crypto Assets
+/app/activity            → Transaction History
+/app/send                → Send Crypto
+/app/receive             → Receive Crypto
+/app/swap                → Token Swap
+/app/buy                 → Buy Crypto
+/app/sell                → Sell Crypto
+/app/networks            → Network Management
+/app/tokens              → Token Management
+/app/nfts                → NFT Gallery
+/app/contacts            → Saved Addresses
+/app/dapps               → Connected dApps
+/app/permissions         → Connection Permissions
+/app/notifications       → Alerts & Notifications
+
+D. AI Financial Intelligence
+AI & ANALYTICS ROUTES
+/app/ai                 → AI Command Center
+/app/ai/portfolio        → Portfolio Analysis
+/app/ai/risk             → Risk Assessment
+/app/ai/scam-check       → Suspicious Address Analysis
+/app/ai/token-analysis   → Token Risk Indicators
+/app/ai/market           → Market Intelligence
+/app/ai/alerts           → Intelligent Alerts
+/app/ai/reports          → AI Reports
+/app/ai/history          → Analysis History
+/app/ai/models           → Model Information
+
+AI Feature-গুলোর কাজ হবে সম্ভাব্য ঝুঁকি শনাক্ত করা, Transaction-এর বিপজ্জনক আচরণ সম্পর্কে সতর্ক করা এবং Portfolio-র তথ্য বিশ্লেষণ করা। AI কখনো একা ব্যবহারকারীর অনুমতি ছাড়া অর্থ স্থানান্তর বা Transaction Sign করবে না।
+E. User Account, Billing & SaaS
+ACCOUNT & BILLING ROUTES
+/app/profile             → Profile
+/app/security            → Security Settings
+/app/devices             → Trusted Devices
+/app/sessions            → Active Sessions
+/app/subscription        → Current Plan
+/app/pricing             → Upgrade Plan
+/app/billing             → Billing History
+/app/usage               → Usage & Limits
+/app/api-keys             → Developer API Keys
+/app/referrals           → Referral Program
+/app/help                → Help Center
+
+Business Model: Free Wallet + Pro Analytics + Advanced AI Insights + Developer API Subscription। Wallet-এর মূল Security বা ব্যবহারকারীর নিজস্ব Funds-এ প্রবেশাধিকার Paid Plan-এর ওপর নির্ভরশীল করা উচিত নয়।
+F. Admin & Operations Dashboard
+ADMIN ROUTES — RESTRICTED ACCESS
+/admin                   → Admin Overview
+/admin/users              → User Management
+/admin/subscriptions      → Subscription Management
+/admin/providers          → Blockchain RPC Providers
+/admin/market-data        → Market Data Services
+/admin/ai-models          → AI Model Monitoring
+/admin/risk               → Security & Risk Alerts
+/admin/audit-logs         → Audit Logs
+/admin/system-health      → System Health
+/admin/billing            → Billing Operations
+/admin/feature-flags      → Feature Management
+/admin/support            → Support Tickets
+
+Admin Dashboard কখনো ব্যবহারকারীর Recovery Phrase বা Private Key দেখাবে না। Admin-এর কাজ হবে Platform Management, Service Monitoring এবং Security Incident Response।
+
+৪. Complete Monorepo Folder Structure
+এটি আপনার VS Code Project-এর মূল Directory Structure। Web, Extension, Mobile, Backend ও AI Service আলাদা থাকবে, কিন্তু Shared Types ও Design System ব্যবহার করতে পারবে।
+nexora/
+│
+├── apps/
+│   ├── web/                         # React + Vite + TypeScript
+│   │   └── src/
+│   │       ├── app/
+│   │       ├── routes/
+│   │       ├── layouts/
+│   │       ├── components/
+│   │       ├── features/
+│   │       │   ├── auth/
+│   │       │   ├── dashboard/
+│   │       │   ├── wallet/
+│   │       │   ├── assets/
+│   │       │   ├── transactions/
+│   │       │   ├── swap/
+│   │       │   ├── buy-sell/
+│   │       │   ├── multichain/
+│   │       │   ├── ai-analytics/
+│   │       │   ├── subscriptions/
+│   │       │   └── settings/
+│   │       ├── services/
+│   │       ├── hooks/
+│   │       ├── stores/
+│   │       ├── types/
+│   │       └── styles/
+│   │
+│   ├── extension/                   # Chrome / Chromium Wallet
+│   │   ├── src/
+│   │   │   ├── popup/
+│   │   │   ├── onboarding/
+│   │   │   ├── background/
+│   │   │   ├── content/
+│   │   │   ├── permissions/
+│   │   │   └── transaction-approval/
+│   │   └── manifest.json
+│   │
+│   └── mobile/                      # React Native
+│       └── src/
+│           ├── screens/
+│           ├── navigation/
+│           ├── wallet/
+│           ├── security/
+│           ├── biometric/
+│           └── notifications/
+│
+├── backend/                         # Django + DRF
+│   ├── config/
+│   ├── apps/
+│   │   ├── users/
+│   │   ├── authentication/
+│   │   ├── profiles/
+│   │   ├── wallets_metadata/
+│   │   ├── assets/
+│   │   ├── transactions/
+│   │   ├── blockchain/
+│   │   ├── market_data/
+│   │   ├── analytics/
+│   │   ├── subscriptions/
+│   │   ├── notifications/
+│   │   ├── developer_api/
+│   │   └── audit/
+│   ├── api/
+│   │   ├── v1/
+│   │   └── permissions/
+│   ├── tests/
+│   ├── manage.py
+│   └── requirements.txt
+│
+├── services/
+│   ├── ai-engine/
+│   │   ├── ingestion/
+│   │   ├── features/
+│   │   ├── models/
+│   │   ├── inference/
+│   │   ├── evaluation/
+│   │   └── monitoring/
+│   │
+│   ├── blockchain-indexer/
+│   └── notification-worker/
+│
+├── packages/
+│   ├── ui/                          # Shared UI Components
+│   ├── types/                       # Shared TypeScript Types
+│   ├── chain-adapters/              # Chain Interfaces
+│   ├── evm-adapter/
+│   ├── bitcoin-adapter/
+│   ├── solana-adapter/
+│   ├── wallet-connectors/
+│   ├── security/
+│   └── config/
+│
+├── infrastructure/
+│   ├── docker/
+│   ├── nginx/
+│   ├── monitoring/
+│   ├── deployment/
+│   └── backup/
+│
+├── docs/
+│   ├── architecture/
+│   ├── api/
+│   ├── security/
+│   ├── database/
+│   └── deployment/
+│
+├── tests/
+│   ├── integration/
+│   ├── e2e/
+│   └── security/
+│
+├── compose.yaml
+├── .env.example
+├── .gitignore
+├── package.json
+├── pnpm-workspace.yaml
+└── README.md
+
+
+Security Design: wallets_metadata-এ Public Address, Wallet Type ও User Association-এর মতো তথ্য রাখা যেতে পারে। Private Key বা Recovery Phrase নয়। Self-Custody Signing Client-side Secure Wallet Module-এ হবে; Embedded Wallet-এর ক্ষেত্রে যাচাইকৃত Key Management SDK বা নিরাপদ Distributed Key Architecture ব্যবহার করবেন।
+৫. Backend API Structure
+সব Frontend Client একই Versioned API ব্যবহার করতে পারবে।
+API Prefix	দায়িত্ব
+/api/v1/auth/	Authentication ও User Sessions
+/api/v1/wallets/	Wallet Metadata ও Accounts
+/api/v1/chains/	Supported Networks
+/api/v1/assets/	Token List ও Asset Metadata
+/api/v1/balances/	Blockchain Balance Queries
+/api/v1/transactions/	Transaction Preparation ও History
+/api/v1/market/	Prices ও Historical Market Data
+/api/v1/analytics/	AI Risk Analysis ও Reports
+/api/v1/swap/	Quotes ও Swap Preparation
+/api/v1/providers/	Buy/Sell Provider Availability
+/api/v1/subscriptions/	SaaS Plans ও Entitlements
+/api/v1/notifications/	Alerts
+/api/v1/developer/	Developer API Access
+Transaction Flow হবে: Prepare → Simulate/Estimate → Show Details → User Approves → Secure Signing → Broadcast → Confirmation। Backend Transaction তৈরি বা প্রস্তুত করতে সাহায্য করতে পারে, কিন্তু Self-Custody Wallet-এ ব্যবহারকারীর Signing অনুমতি এড়িয়ে যেতে পারবে না।
+৬. কোন Technology কোথায় ব্যবহার করবেন?
+Component	Technology
+Web UI	React, Vite, TypeScript, Tailwind
+Extension UI	React + TypeScript + Browser Extension APIs
+Mobile	React Native
+Backend	Python, Django, DRF
+Database	PostgreSQL
+Background Jobs	Celery + Redis
+EVM	Viem / উপযুক্ত EVM SDK
+Bitcoin	Bitcoin-compatible wallet SDK ও transaction libraries
+Solana	Solana Web3 SDK
+AI/ML	PyTorch, Scikit-learn, XGBoost
+Charts	Recharts
+Containers	Docker Compose
+Production	Ubuntu, Nginx, HTTPS
+Multichain Support-এর জন্য একটি সাধারণ Wallet Model দিয়ে সব Blockchain-এর Signing Logic এক জায়গায় রাখবেন না। EVM Adapter, Bitcoin Adapter এবং Solana Adapter আলাদা রাখুন, যাতে Chain-specific Validation ও Transaction Logic স্বাধীনভাবে পরীক্ষা করা যায়।
+৭. Development Roadmap
+1. Foundation: Brand, Monorepo, React, Django, PostgreSQL, Docker এবং Automated Tests।
+2. Wallet MVP: EVM Testnet-এ Create/Import, Receive, Send, Balance ও Transaction History।
+3. Security: Recovery, Signing Approval, Permissions, Threat Modeling ও Security Testing।
+4. Multichain: Bitcoin এবং Solana Adapter, আলাদা Transaction Flow ও Network Testing।
+5. Platform Clients: Browser Extension এবং React Native Mobile App।
+6. Trading Integrations: Swap, Buy/Sell Providers এবং Transaction Simulation।
+7. AI SaaS: Scam Detection, Risk Indicators, Portfolio Analytics ও Subscription Billing।
+8. Production: External Security Audit, Monitoring, Backup, Incident Response ও Deployment।
+এই Scope একটি বড় Product। তাই শুরু থেকেই সব Feature-এর UI ও Folder Structure পরিকল্পনা করলেও, Real Funds-এর জন্য Wallet Release করার আগে প্রতিটি Chain Adapter ও Key Management System আলাদাভাবে Security Review করতে হবে।
+পরবর্তী বাস্তব পদক্ষেপ: D:\nexora-তে Monorepo তৈরি করে প্রথমে Web App, Django API এবং PostgreSQL চালু করুন; এরপর EVM Testnet Wallet MVP তৈরি করুন। Bitcoin ও Solana-র Adapter শুরু থেকেই Architecture-এ রাখুন, কিন্তু বাস্তব অর্থ ব্যবহারের আগে তাদের Signing ও Recovery Flow সম্পূর্ণভাবে পরীক্ষা করুন।
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
